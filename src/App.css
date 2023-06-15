@@ -1,0 +1,355 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julee&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
+
+.body{
+  padding: 5px;
+}
+.banner {
+  background-image: url("./images/7502947.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* width: 100vw; */
+  height: 100vh;
+  padding-top: 20%;
+  text-align: center;
+}
+
+.banner h1 {
+  font-size: 8rem;
+  color: #ffff;
+  margin-bottom: 0;
+  font-family: 'Julee', cursive;
+}
+
+.banner p {
+  font-size: 2rem;
+  color: #ffff;
+  font-family: 'Alata', sans-serif;
+
+}
+
+.banner .scroll{
+
+  text-align: center;
+  color: #7ad8f5;
+  margin-top: 10%;
+}
+
+.how-we-met {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.how-we-met hr {
+  width: 5%;
+  border: 5px solid #7ad8f5;
+  margin: 2% auto;
+}
+
+.how-we-met h1 {
+  font-size: 4rem;
+  font-family: Libre Baskerville;
+font-weight: 700;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+.how-we-met p {
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.5;
+  font-family: 'Alata', sans-serif;
+}
+
+.how-we-met h2{
+
+  font-family: Lato;
+font-size: 25px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+.story-section {
+  display: flex;
+  justify-content: center;
+}
+
+.img {
+  width: 35%;
+  margin: 2% 2%;
+}
+
+.img img {
+  width: 100%;
+  text-align: center;
+  border-radius: 10%;
+}
+.story {
+  width: 35%;
+  margin: 2% 5%;
+  text-align: justify;
+}
+
+.official {
+  text-align: center;
+  background-color: #e2f3f9;
+  padding: 5% 0%;
+}
+
+.official h1 {
+  font-size: 4rem;
+  font-family: 'Libre Baskerville', serif;}
+
+.official hr {
+  width: 10%;
+  border: 3px solid #7ad8f5;
+  margin: 2% auto;
+
+}
+
+.official h2{
+
+  font-family: 'Alata', sans-serif;
+
+}
+
+.official p {
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.7;
+  font-family: 'Alata', sans-serif;
+  margin-top: 3%;
+}
+
+.image-grid {
+  margin-top: 3%;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.img-1 img {
+  width: 100%;
+}
+
+.stats {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+}
+
+.stats1 {
+  width: 30%;
+}
+
+.attend{
+
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+}
+
+.attend-text, .attent-btn{
+
+  margin: 2%;
+}
+.attend-text p{
+font-size: 1.5rem;
+
+}
+.attend-btn{
+
+  margin-top: 3%;
+ 
+}
+
+.attend-btn button{
+
+  padding: 20px 50px; /* Set the padding around the text */
+      background-color: #7ad8f5;
+    border: none;
+    border-radius: 4px;
+    color: #ffff;
+    font-weight: 600;
+}
+
+.attend-btn button:hover {
+  background-color: #ffff; /* Change the background color on hover */
+  color: #7ad8f5;
+    font-weight: 500;
+    border: 1px solid #7ad8f5
+}
+
+@media (max-width:768px) {
+  .banner {
+    /* background-color: #7ad8f5 !important; */
+    padding-top: 40%;
+    text-align: center;
+    /* background: none; */
+    height: 60vh !important;
+  }
+
+  .banner h1 {
+    font-size: 2.5rem;
+    color: #ffff;
+    margin-bottom: 0;
+  }
+
+  .banner p {
+    font-size: 1.5rem;
+    color: #ffff;
+    margin-top: 4%;
+  }
+
+  .how-we-met {
+    text-align: center;
+    margin-top: 10%;
+    width: 100%;
+  }
+
+  .how-we-met hr {
+    width: 5%;
+    border: 5px solid #7ad8f5;
+    margin: auto;
+  }
+
+  .how-we-met h1 {
+    font-size: 2rem;
+  }
+
+  .how-we-met p {
+    font-size: 1rem;
+    /* font-weight: 600; */
+    padding: 2% 10%;
+    color: black;
+    line-height: 35.84px;
+    text-align: justify;
+    /* border:1px solid black ; */
+    margin: 10px auto;
+    /* background-color: #7ad8f5; */
+  }
+
+  .story-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .img {
+    width: 100%;
+    /* margin: 2% 2%; */
+    margin: 0;
+  }
+
+  .img img {
+    width: 98%;
+    text-align: center;
+    border-radius: 15% 5%;
+  }
+  .story {
+    width: 100%;
+    margin: 2% 0%;
+    text-align: justify;
+  }
+
+  .official {
+    text-align: center;
+    background-color: #e2f3f9;
+    padding: 5% 0%;
+  }
+
+  /* .official h1 {
+    font-size: 2rem;
+  } */
+
+  .official hr {
+    width: 5%;
+    border: 5px solid #7ad8f5;
+    margin: auto;
+  }
+
+  .official p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 2% 10%;
+    /* text-align: justify; */
+  }
+
+  .image-grid {
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  .img-1 img {
+    width: 100%;
+  }
+
+  .stats {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .stats1 {
+    width: 30%;
+  }
+
+  .attend{
+
+    display: flex;
+    flex-direction: column;
+       margin-top: 3%;
+    width: 100%;
+    margin: auto;
+  }
+  
+  .attend-text, .attent-btn{
+  
+    margin: 2%;
+    text-align: center;
+  }
+  .attend-text p{
+  font-size: 1.5rem;
+  
+  }
+  .attend-btn{
+  
+    margin-top: 3%;
+   
+  }
+  
+  .attend-btn button{
+  
+    padding: 20px 50px; /* Set the padding around the text */
+        background-color: #7ad8f5;
+      border: none;
+      border-radius: 4px;
+      color: #ffff;
+      font-weight: 600;
+  }
+  
+  .attend-btn button:hover {
+    background-color: #ffff; /* Change the background color on hover */
+    color: #7ad8f5;
+      font-weight: 500;
+      border: 1px solid #7ad8f5
+  }
+}
