@@ -7,7 +7,7 @@ const Official = () => {
             <h2>IT'S OFFICIAL</h2>
             <h1>She Said Yes!</h1>
             <hr></hr>
-            <p>On September 5th, 2020, our lives were forever changed. After dating for four years and just a week before she was set to embark on her <br/> master's degree abroad, He gathered the courage to ask the most significant question. With <br/>unwavering certainty, He proposed, and to his delight, she joyfully said yes.<br/> Now, less than three years later, we are embarking on a lifelong journey together, bound by love and commitment.</p>
+            <p>On September 5th, 2020, our lives were forever changed. After dating for four years and just a week before she was set to embark on her <br/> master's degree abroad, I gathered the courage to ask the most significant question. With <br/>unwavering certainty, I proposed, and to my delight, she joyfully said yes.<br/> Now, less than three years later, we are embarking on a lifelong journey together, bound by love and commitment.</p>
             <div className='image-grid'>
                 <div className='img-1'>
 
