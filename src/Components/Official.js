@@ -26,17 +26,17 @@ const Official = () => {
 
             <div className='stats'>
                 <div className='stats1'>
-                    <h1>7</h1>
+                    <h1>6+</h1>
                     <p>YEARS</p>
                 </div>
 
                 <div className='stats1'>
-                    <h1>150</h1>
+                    <h1>10+</h1>
                     <p>DATES</p>
                 </div>
 
                 <div className='stats1'>
-                    <h1>10</h1>
+                    <h1>3+</h1>
                     <p>TRIPS</p>
                 </div>
             </div>
