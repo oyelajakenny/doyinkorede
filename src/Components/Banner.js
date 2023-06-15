@@ -8,7 +8,7 @@ const Banner = () => {
         <p>It all started in the DM</p>
 
         <div className="scroll">
-          <a id="how" href="#how">
+          <a id="how2" href="#how">
             <h3>Scroll</h3>
           </a>
           <img src="./images/vector.png" alt="vector"></img>
