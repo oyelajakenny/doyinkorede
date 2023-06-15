@@ -4,6 +4,7 @@ const Banner = () => {
   return (
     <>
       <div className="banner">
+        <div>
         <h1>#DoyinKoredeForever</h1>
         <p>It all started in the DM</p>
 
@@ -13,6 +14,8 @@ const Banner = () => {
           </a>
           <img src="./images/vector.png" alt="vector"></img>
         </div>
+        </div>
+       
       </div>
       <div id="how" className="how-we-met">
         <h2>HOW WE MET</h2>
