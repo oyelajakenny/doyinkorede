@@ -13,6 +13,7 @@ const Rsvp = () => {
           href="https://web.facebook.com/groups/doyinkorede/"
           target="_blank"
           rel="noreferrer"
+          style={{ textDecoration: "none" }}
         >
           {" "}
           <button style={{ cursor: "pointer" }}>Watch Live!</button>
