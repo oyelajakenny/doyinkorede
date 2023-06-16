@@ -19,7 +19,7 @@ const Banner = () => {
       </div>
       <div id="how" className="how-we-met">
         <h2>HOW WE MET</h2>
-        <h1>July 30th, 2023</h1>
+        <h1>July 30th, 2016</h1>
         <hr></hr>
         <p>
           In the vast digital landscape of Facebook, our paths crossed in the
