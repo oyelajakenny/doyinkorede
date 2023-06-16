@@ -10,7 +10,7 @@ const Rsvp = () => {
       </div>
 
       <div className='attend-btn'>
-<button>Watch Live!</button>
+<a href="web.facebook.com/groups/doyinkorede/"> <button>Watch Live!</button></a>
 
       </div>
     </div>
