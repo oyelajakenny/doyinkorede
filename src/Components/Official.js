@@ -13,7 +13,7 @@ const Official = () => {
 
                     <img src='./images/750_2704.jpg' alt='image1' />
                 </div>
-                <div className='img-1'><img src='./images/750_2807.jpg' alt='image1' />
+                <div className='img-1'><img src='./images/750_2838.jpg' alt='image1' />
                 </div>
                 <div className='img-1'><img src='./images/750_2727.jpg' alt='image1' />
                 </div>
